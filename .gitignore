@@ -1,0 +1,29 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# ---------- 本地数据与配置 ----------
+# 包含用户私有持仓/自选/配置，禁止进入公开仓库
+data/
+*.db
+*.db-journal
+*.sqlite
+config.json
+
+# ---------- 打包产物 ----------
+build/
+dist/
+*.spec
+
+# ---------- IDE / 系统 ----------
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
